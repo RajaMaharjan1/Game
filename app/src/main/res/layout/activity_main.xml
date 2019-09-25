@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="20dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#eee">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="GAME"
+        android:textAlignment="center"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="30dp"
+        android:padding="5dp"
+        android:text="Choose highest number"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+
+ <Button
+     android:id="@+id/btnRt"
+     android:layout_width="150dp"
+     android:layout_height="100dp"
+     android:layout_marginTop="20dp"
+     android:textSize="20dp"
+     android:padding="5dp"
+     android:layout_gravity="right"
+
+     />
+
+    <Button
+        android:id="@+id/btnLt"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="-100dp"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:layout_gravity="left"
+
+     />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:text=" Point 0"
+        />
+    <Button
+        android:id="@+id/btnNew"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="New Game"
+        android:textSize="30dp"
+        />
+
+
+
+
+
+
+
+</LinearLayout>
